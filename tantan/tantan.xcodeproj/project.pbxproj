@@ -13,6 +13,7 @@
 		10B8B75A20482ACD007E9492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B8B75820482ACD007E9492 /* Main.storyboard */; };
 		10B8B75C20482ACE007E9492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B8B75B20482ACE007E9492 /* Assets.xcassets */; };
 		10B8B75F20482ACE007E9492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B8B75D20482ACE007E9492 /* LaunchScreen.storyboard */; };
+		10B8B76820482EE7007E9492 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B8B76720482EE7007E9492 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		10B8B75B20482ACE007E9492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10B8B75E20482ACE007E9492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10B8B76020482ACE007E9492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10B8B76620482EE7007E9492 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		10B8B76720482EE7007E9492 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				10B8B75320482ACD007E9492 /* AppDelegate.m */,
 				10B8B75520482ACD007E9492 /* ViewController.h */,
 				10B8B75620482ACD007E9492 /* ViewController.m */,
+				10B8B76620482EE7007E9492 /* Person.h */,
+				10B8B76720482EE7007E9492 /* Person.m */,
 				10B8B75820482ACD007E9492 /* Main.storyboard */,
 				10B8B75B20482ACE007E9492 /* Assets.xcassets */,
 				10B8B75D20482ACE007E9492 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			files = (
 				10B8B75720482ACD007E9492 /* ViewController.m in Sources */,
 				10B8B75420482ACD007E9492 /* AppDelegate.m in Sources */,
+				10B8B76820482EE7007E9492 /* Person.m in Sources */,
 				10B8B75120482ACD007E9492 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
