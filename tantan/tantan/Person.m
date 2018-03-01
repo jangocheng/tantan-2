@@ -9,5 +9,5 @@
 #import "Person.h"
 
 @implementation Person
-
+int age;
 @end
